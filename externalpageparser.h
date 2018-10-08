@@ -8,6 +8,7 @@
 #include <QWebPage>
 #include <QWebFrame>
 #include "promise.h"
+#include <functional>
 
 class ExternalPageParser : public QObject
 {
